@@ -1,0 +1,19 @@
+/* Global .link utility */
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Optional: Base styles (unrelated to .scss, just useful) */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

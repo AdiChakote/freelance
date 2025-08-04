@@ -1,0 +1,140 @@
+.home .features {
+  background-color: #f1fdf7;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.home .features.dark {
+  background-color: #0d084d;
+}
+
+.home .features.dark h1,
+.home .features.dark p,
+.home .features.dark .title {
+  color: white;
+}
+
+.home .features.dark .title {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.home .features.dark button {
+  background-color: #1dbf73;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.home .features .container {
+  width: 1400px;
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
+.home .features .item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.home .features .item:first-child {
+  flex: 2;
+}
+
+.home .features .item:last-child {
+  flex: 3;
+}
+
+.home .features .item h1 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.home .features .item .title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #666;
+}
+
+.home .features .item .title img {
+  width: 24px;
+  height: 24px;
+}
+
+.home .features .item p {
+  font-size: 18px;
+  font-weight: 300;
+  color: gray;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+.home .features .item img,
+.home .features .item video {
+  width: 100%;
+  max-width: 720px;
+}
+
+.home .explore {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.home .explore .container {
+  width: 1400px;
+}
+
+.home .explore .container h1 {
+  color: #555;
+}
+
+.home .explore .items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.home .explore .item {
+  width: 250px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.home .explore .item img {
+  width: 50px;
+  height: 50px;
+}
+
+.home .explore .item .line {
+  width: 50px;
+  height: 2px;
+  background-color: lightgray;
+  transition: all 0.3s ease;
+}
+
+.home .explore .item span {
+  font-weight: 300;
+}
+
+.home .explore .item:hover .line {
+  width: 80px;
+  background-color: #1dbf73;
+}

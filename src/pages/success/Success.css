@@ -1,0 +1,27 @@
+.success {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  text-align: center;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.success .message {
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #f9fff9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.success h1 {
+  color: #1dbf73;
+  margin-bottom: 20px;
+}
+
+.success p {
+  font-size: 18px;
+  line-height: 1.5;
+}
