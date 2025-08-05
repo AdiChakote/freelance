@@ -9,22 +9,34 @@
   position: relative;
 }
 
-.slide .carousel-initialized {
-  position: static;
-}
-
-.slide .carousel-prev,
-.slide .carousel-next {
+/* Override slick's default button styles */
+.slick-prev,
+.slick-next {
   width: 50px;
   height: 50px;
   background-color: rgb(243, 243, 243);
   border-radius: 50%;
-  position: absolute;
+  z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 20px;
+  color: black;
+}
+
+/* Position the arrows vertically centered */
+.slick-prev,
+.slick-next {
   top: 0;
   bottom: 0;
   margin: auto;
 }
 
-.slide .carousel-prev {
+/* Adjust left/right placement */
+.slick-prev {
   left: -25px;
+}
+.slick-next {
+  right: -25px;
 }
